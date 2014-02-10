@@ -1,0 +1,45 @@
+% this file is called up by thesis.tex
+% content in this file will be fed into the main document
+
+%: ----------------------- name of chapter  -------------------------
+%\appendix
+\phantomsection
+\renewcommand{\chaptername}{Appendix} % uncomment to print only "1" not "Chapter 1"
+\renewcommand\thechapter{\Alph{chapter}}
+\setcounter{chapter}{0}
+%\appendix
+\chapter{Source code, datasets, and videos} % top level followed by section, subsection
+\label{chapter:appendix}
+
+
+%: ----------------------- paths to graphics ------------------------
+
+% change according to folder and file names
+\ifpdf
+    \graphicspath{{X/figures/PNG/}{X/figures/PDF/}{X/figures/}}
+\else
+    \graphicspath{{X/figures/EPS/}{X/figures/}}
+\fi
+
+%: ----------------------- contents from here ------------------------
+\begin{sloppypar}
+\lettrine{T}{he} source code for all proposed algorithms in this dissertation, including 
+
+\end{sloppypar}
+
+
+
+\newpage\thispagestyle{empty}
+
+
+
+
+
+
+
+
+
+% ---------------------------------------------------------------------------
+%: ----------------------- end of thesis sub-document ------------------------
+% ---------------------------------------------------------------------------
+
