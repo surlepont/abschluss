@@ -19,6 +19,8 @@
 *.maf
 *.mtc
 *.mtc1
+*.nlo
 *.out
 *.synctex.gz
+*.xdy
 thesis.pdf
