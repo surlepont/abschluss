@@ -56,7 +56,7 @@
 \usepackage[
     style=authoryear,          % Zitierstil
     isbn=false,                % ISBN nicht anzeigen, gleiches geht mit nahezu allen anderen Feldern
-    pagetracker=true,          % ebd. bei wiederholten Angaben (false=ausgeschaltet, page=Seite, spread=Doppelseite, true=automatisch)
+    pagetracker=spread,          % ebd. bei wiederholten Angaben (false=ausgeschaltet, page=Seite, spread=Doppelseite, true=automatisch)
     maxbibnames=50,            % maximale Namen, die im Literaturverzeichnis angezeigt werden (ich wollte alle)
     maxcitenames=3,            % maximale Namen, die im Text angezeigt werden, ab 4 wird u.a. nach den ersten Autor angezeigt
     autocite=inline,           % regelt Aussehen für \autocite (inline=\parancite)
@@ -65,7 +65,8 @@
     backrefstyle=three+,       % fasst Seiten zusammen, z.B. S. 2f, 6ff, 7-10
     date=short,                % Datumsformat
     sorting=ynt,
-    backend=biber]{biblatex}
+    backend=biber,
+    ibidtracker]{biblatex}
 
 %\usepackage{algorithm} % ben
 %\usepackage{algpseudocode} % en
