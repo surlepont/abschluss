@@ -21,6 +21,8 @@
 *.mtc1
 *.nlo
 *.out
+*.bcf
+*.run.xml
 *.synctex.gz
 *.xdy
 thesis.pdf
