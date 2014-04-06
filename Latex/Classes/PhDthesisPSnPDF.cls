@@ -39,8 +39,9 @@
 
 %% load german babel package for german abstract
 %\usepackage[american]{babel}
-\usepackage[ngerman,english]{babel}
-\selectlanguage{english}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\selectlanguage{german}
 
 %:-------------------------- packages for fancy things -----------------------
 \usepackage{graphics} % for improved inclusion of graphics
@@ -48,6 +49,15 @@
 %ben: allow eps: \usepackage[update,prepend]{epstopdf}
 \usepackage[margin=10pt,font=small,labelfont=bf]{caption}
 %\captionsetup[table]{skip=-8pt} % for improved layout of figure captions with extra margin, smaller font than text
+
+
+%\usepackage[german]{babel}% Recommended
+\usepackage{csquotes}% Recommended
+\usepackage[
+   backend=biber,
+   style=ieee,
+   sorting=none]{biblatex}
+
 
 %\usepackage{algorithm} % ben
 %\usepackage{algpseudocode} % en
@@ -62,7 +72,7 @@
 \usepackage{mathtools}
 \usepackage{epigraph}
 \usepackage{Latex/StyleFiles/diagbox}
-\usepackage[round, authoryear]{natbib}
+%ben\usepackage[round, authoryear]{natbib}
 \usepackage{ifthen}
 \usepackage{multicol} % for pages with multiple text columns, e.g. References
 \setlength{\columnsep}{20pt} % space between columns; default 10pt quite narrow
@@ -132,7 +142,7 @@
 %--> http://www.uni-giessen.de/partosch/eurotex99/ oberdiek/print/sli4a4col.pdf
 %--> http://me.in-berlin.de/~miwie/tex-refs/html/latex-packages.html
 %-->
-    \usepackage[hyphens]{url}
+    %\usepackage[hyphens]{url}
     \usepackage[ pdftex,
                  plainpages = false,
                  pdfpagelabels,
