@@ -93,7 +93,6 @@
 \usepackage{lipsum}
 \usepackage[lined,ruled,linesnumbered,commentsnumbered,algochapter]{algorithm2e}
 \usepackage{setspace}
-\onehalfspacing
 \usepackage{multirow}
 \usepackage{booktabs}\setlength{\heavyrulewidth}{0.12em}
 \usepackage{afterpage}%for inserting blank pages
