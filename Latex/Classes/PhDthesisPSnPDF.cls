@@ -215,7 +215,7 @@
 %: default
 % ------------------------------
 %\setlength{\oddsidemargin}{1.5cm}
-%\setlength{\evensidemargin}{0cm}
+%\setlength{\evensidemargin}{-5mm}
 %\setlength{\topmargin}{1mm}
 %\setlength{\headheight}{1.36cm}
 %\setlength{\headsep}{1.00cm}
@@ -225,12 +225,12 @@
 %\setlength{\marginparwidth}{3cm}
 %\setlength{\footskip}{2.36cm}
 
-\setlength{\oddsidemargin}{1.5cm}
-\setlength{\evensidemargin}{0cm}
+\setlength{\oddsidemargin}{0.0cm}
+\setlength{\evensidemargin}{0.0cm}
 \setlength{\topmargin}{-15mm}
 \setlength{\headheight}{1.36cm}
 \setlength{\headsep}{0.50cm}
-\setlength{\textheight}{22.50cm}
+\setlength{\textheight}{23.30cm}
 \setlength{\textwidth}{14.5cm}
 \setlength{\marginparsep}{1mm}
 \setlength{\marginparwidth}{3cm}
