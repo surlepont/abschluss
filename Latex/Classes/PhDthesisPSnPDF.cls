@@ -65,7 +65,7 @@
     backref=true,              % Seiten anzeigen, auf denen die Referenz vorkommt
     backrefstyle=three+,       % fasst Seiten zusammen, z.B. S. 2f, 6ff, 7-10
     date=short,                % Datumsformat
-    sorting=ynt,
+    sorting=nyt,
     backend=biber,
     ibidtracker=true,
     idemtracker=true
@@ -233,7 +233,7 @@
 \setlength{\topmargin}{-15mm}
 \setlength{\headheight}{1.36cm}
 \setlength{\headsep}{0.50cm}
-\setlength{\textheight}{23.30cm}
+\setlength{\textheight}{24.00cm}
 \setlength{\textwidth}{14.5cm}
 \setlength{\marginparsep}{1mm}
 \setlength{\marginparwidth}{3cm}
@@ -267,7 +267,7 @@
 %\fancyhead[RO]{\bfseries\rightmark}
 \fancyhead[RO]{\small\scshape\nouppercase{\rightmark}}
 \fancyhead[LE]{\small\scshape\nouppercase{\leftmark}}
-\fancyfoot[C]{\thepage}
+\fancyfoot[R]{\thepage}
 \renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\footrulewidth}{0pt}
 \addtolength{\headheight}{0.5pt}

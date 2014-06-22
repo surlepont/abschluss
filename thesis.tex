@@ -132,8 +132,17 @@
 %:                  BACK MATTER: appendices, refs,..
 % --------------------------------------------------------------
 
+\begin{spacing}{1.0}
+\printbibliography[]
+
+
+
 % the back matter: appendix and references close the thesis
-%\include{6_appendix/appendix}
+\include{6_appendix/appendix}
+
+\nocite{*}
+\printbibliography[keyword=Uebungen,title=Literaturübersicht zum Thema "`Atem- und Stimmübungen"']
+\end{spacing}
 
 %: ----------------------- bibliography ------------------------
 
@@ -146,9 +155,7 @@
 %\begin{tiny} % tiny(5) < scriptsize(7) < footnotesize(8) < small (9)
 
 
-\begin{spacing}{1.0}
-\printbibliography[]
-\end{spacing}
+
 
 %\bibliographystyle{Latex/Classes/PhDbiblio-url2} % Title is link if provided
 %\begin{footnotesize}
