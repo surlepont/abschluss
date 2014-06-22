@@ -54,9 +54,10 @@
 %\usepackage[german]{babel}% Recommended
 \usepackage{csquotes}% Recommended
 \usepackage[
-    style=authoryear,          % Zitierstil
+%    style=authoryear,          % Zitierstil
+    style=authoryear-icomp,
     isbn=false,                % ISBN nicht anzeigen, gleiches geht mit nahezu allen anderen Feldern
-    pagetracker=spread,          % ebd. bei wiederholten Angaben (false=ausgeschaltet, page=Seite, spread=Doppelseite, true=automatisch)
+    pagetracker=true,          % ebd. bei wiederholten Angaben (false=ausgeschaltet, page=Seite, spread=Doppelseite, true=automatisch)
     maxbibnames=50,            % maximale Namen, die im Literaturverzeichnis angezeigt werden (ich wollte alle)
     maxcitenames=3,            % maximale Namen, die im Text angezeigt werden, ab 4 wird u.a. nach den ersten Autor angezeigt
     autocite=inline,           % regelt Aussehen für \autocite (inline=\parancite)
@@ -66,7 +67,9 @@
     date=short,                % Datumsformat
     sorting=ynt,
     backend=biber,
-    ibidtracker]{biblatex}
+    ibidtracker=true,
+    idemtracker=true
+    ]{biblatex}
 
 %\usepackage{algorithm} % ben
 %\usepackage{algpseudocode} % en
@@ -156,7 +159,7 @@
                  plainpages = false,
                  pdfpagelabels,
                  hypertexnames=false,
-                 pdfpagelayout = useoutlines,
+                 pdfpagelayout = SinglePage,
                  bookmarks,
                  bookmarksopen = true,
                  bookmarksnumbered = true,
