@@ -166,7 +166,7 @@
                  breaklinks,
                  linktocpage,
                  pagebackref=false,
-                 hidelinks=true,
+                 hidelinks,
                  colorlinks = false,  % was true
                  linkcolor = blue,
                  urlcolor  = blue,
