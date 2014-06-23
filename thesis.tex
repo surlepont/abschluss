@@ -58,6 +58,7 @@
 %\hyphenation{ent-"undungs-hemmende}
 %\hyphenation{Ganz-k"or-per-ple-thys-mo-gra-phie}
 
+\setlength{\skip\footins}{0.5cm} % space between text body and footnote line
 
 % turn of those nasty overfull and underfull hboxes
 \hbadness=10000
@@ -77,12 +78,12 @@
 
 %: ----------------------- tie in front matter ------------------------
 %\frontmatter
-\reviewers
+%\reviewers
 %\include{0_frontmatter/dedication}
 %\include{0_frontmatter/change_list}
-\include{0_frontmatter/acknowledgement}
-\include{0_frontmatter/abstract}
-\include{0_frontmatter/kurzfassung}
+%\include{0_frontmatter/acknowledgement}
+%\include{0_frontmatter/abstract}
+%\include{0_frontmatter/kurzfassung}
 %: ----------------------- contents ------------------------
 \setcounter{secnumdepth}{3} % organisational level that receives a numbers
 \setcounter{tocdepth}{3}    % print table of contents for level 3
@@ -90,14 +91,14 @@
 \addtocontents{toc}{\protect{\pdfbookmark[0]{\contentsname}{toc}}}
 % levels are: 0 - chapter, 1 - section, 2 - subsection, 3 - subsection
 %: ----------------------- list of figures/tables ------------------------
-\listoffigures	% print list of figures
-\newpage\thispagestyle{empty}
-\listoftables  % print list of tables
-\newpage\thispagestyle{empty}
+%\listoffigures	% print list of figures
+%\newpage\thispagestyle{empty}
+%\listoftables  % print list of tables
+%\newpage\thispagestyle{empty}
 
 %\glsaddall
-\printglossaries
-\newpage\thispagestyle{empty}
+%\printglossaries
+%\newpage\thispagestyle{empty}
 
 
 \begin{multicols}{2} % \begin{multicols}{#columns}[header text][space]
@@ -140,8 +141,22 @@
 % the back matter: appendix and references close the thesis
 \include{6_appendix/appendix}
 
-\nocite{*}
-\printbibliography[keyword=Uebungen,title=Literaturübersicht zum Thema "`Atem- und Stimmübungen"']
+\nocite{alavi1994}
+\nocite{cardas1989}
+\nocite{coblenzer2006}
+\nocite{cramer1998uebung}
+\nocite{ehrmann2004uebung}
+\nocite{engerttimmermann2005}
+\nocite{hamann2005}
+\nocite{hegi1997}
+\nocite{hoellerzangenfeind2004}
+\nocite{lauten2008}
+\nocite{lingemann2014}
+\nocite{middendorf1995uebung}
+\nocite{noodt2006}
+\nocite{schirner2006}
+
+\printbibliography[keyword=Uebungen,title=Literaturübersicht zum Thema\\"`Atem- und Stimmübungen"']
 \end{spacing}
 
 %: ----------------------- bibliography ------------------------

@@ -15,11 +15,21 @@
 %: ----------------------- paths to graphics ------------------------
 
 % change according to folder and file names
-\ifpdf
-    \graphicspath{{X/figures/PNG/}{X/figures/PDF/}{X/figures/}}
-\else
-    \graphicspath{{X/figures/EPS/}{X/figures/}}
-\fi
+%\ifpdf
+%    \graphicspath{{X/figures/PNG/}{X/figures/PDF/}{X/figures/}}
+%\else
+%    \graphicspath{{X/figures/EPS/}{X/figures/}}
+%\fi
+
+
+%\begin{landscape}
+%\setlength{\oddsidemargin}{0.6cm}
+\newpage\thispagestyle{empty}
+\includegraphics[angle=90,page=1,width=1.1\textwidth]{2_chronisch_obstruktive_lungenerkrankung/figures/copd_tabellen}
+\newpage\thispagestyle{empty}
+\includegraphics[angle=90,page=2,width=1.1\textwidth]{2_chronisch_obstruktive_lungenerkrankung/figures/copd_tabellen}
+%\end{landscape}
+%\setlength{\oddsidemargin}{0.0cm}
 
 %: ----------------------- contents from here ------------------------
 %\begin{sloppypar}
@@ -28,7 +38,7 @@
 
 
 
-\newpage\thispagestyle{empty}
+%\newpage\thispagestyle{empty}
 
 
 

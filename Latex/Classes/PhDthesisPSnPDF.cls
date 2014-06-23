@@ -166,11 +166,12 @@
                  breaklinks,
                  linktocpage,
                  pagebackref=false,
+                 hidelinks=true,
                  colorlinks = false,  % was true
                  linkcolor = blue,
                  urlcolor  = blue,
-                 citecolor = red,
-                 anchorcolor = green,
+%                 citecolor = red,
+%                 anchorcolor = green,
                  hyperindex = true,
                  hyperfigures
                  ]{hyperref}
@@ -342,25 +343,34 @@
 %\end{alwayssingle}}
 
 \renewcommand{\maketitle}{  
+\setlength{\oddsidemargin}{0.6cm}
+
   \begin{alwayssingle}
   \thispagestyle{empty}
+  \Large{\noindent Hochschule für Musik und Theater Hamburg\\Institut für Musiktherapie\\Masterstudiengang Musiktherapie}
   \begin{center}
-	\vspace{60pt}
-	\Huge{\textup{Musiktherapeutische Stimmarbeit\\Konzeptionelle Überlegungen für die Arbeit mit COPD-Patienten}}
-	\vspace{96pt}
-	
-	\Large{	
-	Masterarbeit
-	\vspace{64pt}
-	am Institut f\"ur Musiktherapie,\\
-	an der Hochschule f\"ur Musik und Theater, Hamburg\\
-	
-	\vspace{64pt}
-	vorgelegt von\\
- 	Hamburg, 2014
+	\vspace{120pt}
+	\Large{
+	Masterarbeit\\
 	}
+	\vspace{10pt}
+	\Huge{\textup{Musiktherapeutische Stimmarbeit\\}}
+	\vspace{10pt}
+	\huge{Konzeptionelle Überlegungen für\\die Arbeit mit COPD-Patienten}
+	\vspace{160pt}
   \end{center}
+  \Large{
+	Referentin: Prof. Eva Frank-Bleckwedel\\
+	Koreferentin: Prof. Anne-Dorothea Pahl\\[64pt]}
+%  \vspace{64pt}
+  \Large{\noindent Sarah Fritzsche\\
+    Preystraße 11\\
+    22303 Hamburg\\}
+  \vspace{16pt}
+  \Large{\noindent Matrikelnummer: 11183\\
+    Abgabetermin: 24. Juni 2014}
   \end{alwayssingle}
+\setlength{\oddsidemargin}{0.0cm}
 }
 
 
@@ -483,7 +493,7 @@
 \newenvironment{declaration} {\begin{alwayssingle} \pagestyle{empty}
   \begin{center}
   \vspace*{1.5cm}
-  {\Large \bfseries  Declaration}
+  {\Large \bfseries  Erklärung}
   \end{center}
   \vspace{0.5cm}
    \begin{quote}}
